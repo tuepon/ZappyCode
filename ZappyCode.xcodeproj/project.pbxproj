@@ -15,6 +15,7 @@
 		DEC82FE4264E681C002BE7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */; };
 		DEC82FEF264E681C002BE7B3 /* ZappyCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FEE264E681C002BE7B3 /* ZappyCodeTests.swift */; };
 		DEC82FFA264E681C002BE7B3 /* ZappyCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FF9264E681C002BE7B3 /* ZappyCodeUITests.swift */; };
+		DEC83011264E76AE002BE7B3 /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC83010264E76AE002BE7B3 /* CourseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DEC82FF5264E681C002BE7B3 /* ZappyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC82FF9264E681C002BE7B3 /* ZappyCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappyCodeUITests.swift; sourceTree = "<group>"; };
 		DEC82FFB264E681C002BE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC83010264E76AE002BE7B3 /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */,
 				DEC82FDB264E681B002BE7B3 /* ViewController.swift */,
 				DEC82FDD264E681B002BE7B3 /* Main.storyboard */,
+				DEC83010264E76AE002BE7B3 /* CourseTableViewController.swift */,
 				DEC82FE0264E681C002BE7B3 /* Assets.xcassets */,
 				DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */,
 				DEC82FE5264E681C002BE7B3 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				DEC82FDC264E681B002BE7B3 /* ViewController.swift in Sources */,
 				DEC82FD8264E681B002BE7B3 /* AppDelegate.swift in Sources */,
+				DEC83011264E76AE002BE7B3 /* CourseTableViewController.swift in Sources */,
 				DEC82FDA264E681B002BE7B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
