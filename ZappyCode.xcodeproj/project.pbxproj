@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEC82FD8264E681B002BE7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */; };
+		DEC82FDA264E681B002BE7B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */; };
+		DEC82FDC264E681B002BE7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FDB264E681B002BE7B3 /* ViewController.swift */; };
+		DEC82FDF264E681B002BE7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC82FDD264E681B002BE7B3 /* Main.storyboard */; };
+		DEC82FE1264E681C002BE7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC82FE0264E681C002BE7B3 /* Assets.xcassets */; };
+		DEC82FE4264E681C002BE7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */; };
+		DEC82FEF264E681C002BE7B3 /* ZappyCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FEE264E681C002BE7B3 /* ZappyCodeTests.swift */; };
+		DEC82FFA264E681C002BE7B3 /* ZappyCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FF9264E681C002BE7B3 /* ZappyCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC82FEB264E681C002BE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC82FCC264E681B002BE7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC82FD3264E681B002BE7B3;
+			remoteInfo = ZappyCode;
+		};
+		DEC82FF6264E681C002BE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC82FCC264E681B002BE7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC82FD3264E681B002BE7B3;
+			remoteInfo = ZappyCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEC82FD4264E681B002BE7B3 /* ZappyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZappyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEC82FDB264E681B002BE7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEC82FDE264E681B002BE7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC82FE0264E681C002BE7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC82FE3264E681C002BE7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC82FE5264E681C002BE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC82FEA264E681C002BE7B3 /* ZappyCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappyCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC82FEE264E681C002BE7B3 /* ZappyCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappyCodeTests.swift; sourceTree = "<group>"; };
+		DEC82FF0264E681C002BE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC82FF5264E681C002BE7B3 /* ZappyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC82FF9264E681C002BE7B3 /* ZappyCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZappyCodeUITests.swift; sourceTree = "<group>"; };
+		DEC82FFB264E681C002BE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC82FD1264E681B002BE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FE7264E681C002BE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FF2264E681C002BE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC82FCB264E681B002BE7B3 = {
+			isa = PBXGroup;
+			children = (
+				DEC82FD6264E681B002BE7B3 /* ZappyCode */,
+				DEC82FED264E681C002BE7B3 /* ZappyCodeTests */,
+				DEC82FF8264E681C002BE7B3 /* ZappyCodeUITests */,
+				DEC82FD5264E681B002BE7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC82FD5264E681B002BE7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC82FD4264E681B002BE7B3 /* ZappyCode.app */,
+				DEC82FEA264E681C002BE7B3 /* ZappyCodeTests.xctest */,
+				DEC82FF5264E681C002BE7B3 /* ZappyCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC82FD6264E681B002BE7B3 /* ZappyCode */ = {
+			isa = PBXGroup;
+			children = (
+				DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */,
+				DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */,
+				DEC82FDB264E681B002BE7B3 /* ViewController.swift */,
+				DEC82FDD264E681B002BE7B3 /* Main.storyboard */,
+				DEC82FE0264E681C002BE7B3 /* Assets.xcassets */,
+				DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */,
+				DEC82FE5264E681C002BE7B3 /* Info.plist */,
+			);
+			path = ZappyCode;
+			sourceTree = "<group>";
+		};
+		DEC82FED264E681C002BE7B3 /* ZappyCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC82FEE264E681C002BE7B3 /* ZappyCodeTests.swift */,
+				DEC82FF0264E681C002BE7B3 /* Info.plist */,
+			);
+			path = ZappyCodeTests;
+			sourceTree = "<group>";
+		};
+		DEC82FF8264E681C002BE7B3 /* ZappyCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC82FF9264E681C002BE7B3 /* ZappyCodeUITests.swift */,
+				DEC82FFB264E681C002BE7B3 /* Info.plist */,
+			);
+			path = ZappyCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC82FD3264E681B002BE7B3 /* ZappyCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC82FFE264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCode" */;
+			buildPhases = (
+				DEC82FD0264E681B002BE7B3 /* Sources */,
+				DEC82FD1264E681B002BE7B3 /* Frameworks */,
+				DEC82FD2264E681B002BE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZappyCode;
+			productName = ZappyCode;
+			productReference = DEC82FD4264E681B002BE7B3 /* ZappyCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC82FE9264E681C002BE7B3 /* ZappyCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC83001264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCodeTests" */;
+			buildPhases = (
+				DEC82FE6264E681C002BE7B3 /* Sources */,
+				DEC82FE7264E681C002BE7B3 /* Frameworks */,
+				DEC82FE8264E681C002BE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC82FEC264E681C002BE7B3 /* PBXTargetDependency */,
+			);
+			name = ZappyCodeTests;
+			productName = ZappyCodeTests;
+			productReference = DEC82FEA264E681C002BE7B3 /* ZappyCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEC82FF4264E681C002BE7B3 /* ZappyCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC83004264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCodeUITests" */;
+			buildPhases = (
+				DEC82FF1264E681C002BE7B3 /* Sources */,
+				DEC82FF2264E681C002BE7B3 /* Frameworks */,
+				DEC82FF3264E681C002BE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC82FF7264E681C002BE7B3 /* PBXTargetDependency */,
+			);
+			name = ZappyCodeUITests;
+			productName = ZappyCodeUITests;
+			productReference = DEC82FF5264E681C002BE7B3 /* ZappyCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC82FCC264E681B002BE7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DEC82FD3264E681B002BE7B3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DEC82FE9264E681C002BE7B3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DEC82FD3264E681B002BE7B3;
+					};
+					DEC82FF4264E681C002BE7B3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DEC82FD3264E681B002BE7B3;
+					};
+				};
+			};
+			buildConfigurationList = DEC82FCF264E681B002BE7B3 /* Build configuration list for PBXProject "ZappyCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC82FCB264E681B002BE7B3;
+			productRefGroup = DEC82FD5264E681B002BE7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC82FD3264E681B002BE7B3 /* ZappyCode */,
+				DEC82FE9264E681C002BE7B3 /* ZappyCodeTests */,
+				DEC82FF4264E681C002BE7B3 /* ZappyCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC82FD2264E681B002BE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC82FE4264E681C002BE7B3 /* LaunchScreen.storyboard in Resources */,
+				DEC82FE1264E681C002BE7B3 /* Assets.xcassets in Resources */,
+				DEC82FDF264E681B002BE7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FE8264E681C002BE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FF3264E681C002BE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC82FD0264E681B002BE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC82FDC264E681B002BE7B3 /* ViewController.swift in Sources */,
+				DEC82FD8264E681B002BE7B3 /* AppDelegate.swift in Sources */,
+				DEC82FDA264E681B002BE7B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FE6264E681C002BE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC82FEF264E681C002BE7B3 /* ZappyCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC82FF1264E681C002BE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC82FFA264E681C002BE7B3 /* ZappyCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC82FEC264E681C002BE7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC82FD3264E681B002BE7B3 /* ZappyCode */;
+			targetProxy = DEC82FEB264E681C002BE7B3 /* PBXContainerItemProxy */;
+		};
+		DEC82FF7264E681C002BE7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC82FD3264E681B002BE7B3 /* ZappyCode */;
+			targetProxy = DEC82FF6264E681C002BE7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC82FDD264E681B002BE7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC82FDE264E681B002BE7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC82FE3264E681C002BE7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC82FFC264E681C002BE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEC82FFD264E681C002BE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC82FFF264E681C002BE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEC83000264E681C002BE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEC83002264E681C002BE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZappyCode.app/ZappyCode";
+			};
+			name = Debug;
+		};
+		DEC83003264E681C002BE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZappyCode.app/ZappyCode";
+			};
+			name = Release;
+		};
+		DEC83005264E681C002BE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZappyCode;
+			};
+			name = Debug;
+		};
+		DEC83006264E681C002BE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R224JS2W63;
+				INFOPLIST_FILE = ZappyCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waltz4debby.ZappyCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZappyCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC82FCF264E681B002BE7B3 /* Build configuration list for PBXProject "ZappyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC82FFC264E681C002BE7B3 /* Debug */,
+				DEC82FFD264E681C002BE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC82FFE264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC82FFF264E681C002BE7B3 /* Debug */,
+				DEC83000264E681C002BE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC83001264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC83002264E681C002BE7B3 /* Debug */,
+				DEC83003264E681C002BE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC83004264E681C002BE7B3 /* Build configuration list for PBXNativeTarget "ZappyCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC83005264E681C002BE7B3 /* Debug */,
+				DEC83006264E681C002BE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC82FCC264E681B002BE7B3 /* Project object */;
+}
