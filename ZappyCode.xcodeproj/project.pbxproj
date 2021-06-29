@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6D8FA3268B46EA003984AE /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6D8FA2268B46EA003984AE /* Course.swift */; };
 		DEA04B41268861DB00519F82 /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B40268861DB00519F82 /* CourseTableViewController.swift */; };
 		DEC82FD8264E681B002BE7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */; };
 		DEC82FDA264E681B002BE7B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE6D8FA2268B46EA003984AE /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		DEA04B40268861DB00519F82 /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		DEC82FD4264E681B002BE7B3 /* ZappyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZappyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				DEC82FD7264E681B002BE7B3 /* AppDelegate.swift */,
 				DEC82FD9264E681B002BE7B3 /* SceneDelegate.swift */,
 				DEA04B40268861DB00519F82 /* CourseTableViewController.swift */,
+				DE6D8FA2268B46EA003984AE /* Course.swift */,
 				DEC82FDD264E681B002BE7B3 /* Main.storyboard */,
 				DEC82FE0264E681C002BE7B3 /* Assets.xcassets */,
 				DEC82FE2264E681C002BE7B3 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6D8FA3268B46EA003984AE /* Course.swift in Sources */,
 				DEC82FD8264E681B002BE7B3 /* AppDelegate.swift in Sources */,
 				DEA04B41268861DB00519F82 /* CourseTableViewController.swift in Sources */,
 				DEC82FDA264E681B002BE7B3 /* SceneDelegate.swift in Sources */,
