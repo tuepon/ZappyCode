@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Course Table View Controller-->
+        <!--ZappyCode Courses-->
         <scene sceneID="ATC-K2-GKl">
             <objects>
                 <tableViewController id="CGO-XH-M8Q" customClass="CourseTableViewController" customModule="ZappyCode" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,12 +16,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseCell" rowHeight="65" id="9Bt-oN-DbQ">
-                                <rect key="frame" x="0.0" y="28" width="414" height="65"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseCell" rowHeight="536" id="9Bt-oN-DbQ">
+                                <rect key="frame" x="0.0" y="28" width="414" height="536"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Bt-oN-DbQ" id="awS-CI-4RH">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="536"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iOS_13_Course_Image_Big" translatesAutoresizingMaskIntoConstraints="NO" id="4Vj-fY-gWh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="117" id="AH0-H7-9J0"/>
+                                                <constraint firstAttribute="width" secondItem="4Vj-fY-gWh" secondAttribute="height" multiplier="1500:844" id="Nub-LF-Vj6"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="iOS 13 - How to Make Amazing iPhone Apps: Xcode 11 &amp; Swift 5" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAK-0d-FKr">
+                                            <rect key="frame" x="20" y="252" width="374" height="42.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="758" ambiguous="YES" text="Learn SwiftUI, Dark Mode, Sign in with Apple, Swift Package Manager and SF Symbols on the new Xcode 11 and Swift 5.1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSW-U4-Daf">
+                                            <rect key="frame" x="20" y="309" width="374" height="58"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                            <color key="textColor" systemColor="secondaryLabelColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="4Vj-fY-gWh" firstAttribute="top" secondItem="awS-CI-4RH" secondAttribute="topMargin" id="7b9-J4-VhN"/>
+                                        <constraint firstItem="pAK-0d-FKr" firstAttribute="leading" secondItem="awS-CI-4RH" secondAttribute="leadingMargin" id="8wm-2P-HBx"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="4Vj-fY-gWh" secondAttribute="trailing" id="9J9-Ec-wZY"/>
+                                        <constraint firstItem="sSW-U4-Daf" firstAttribute="top" secondItem="pAK-0d-FKr" secondAttribute="bottom" constant="14.5" id="Dhr-HL-o51"/>
+                                        <constraint firstItem="4Vj-fY-gWh" firstAttribute="leading" secondItem="awS-CI-4RH" secondAttribute="leading" id="K7t-G1-0d7"/>
+                                        <constraint firstItem="4Vj-fY-gWh" firstAttribute="top" secondItem="awS-CI-4RH" secondAttribute="top" id="MDj-Z2-Np1"/>
+                                        <constraint firstItem="4Vj-fY-gWh" firstAttribute="leading" secondItem="awS-CI-4RH" secondAttribute="leadingMargin" id="T1f-nz-63A"/>
+                                        <constraint firstItem="pAK-0d-FKr" firstAttribute="top" secondItem="4Vj-fY-gWh" secondAttribute="bottom" constant="8" symbolic="YES" id="dts-Un-HdE"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="pAK-0d-FKr" secondAttribute="trailing" id="lAI-y4-dZo"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="sSW-U4-Daf" secondAttribute="trailing" id="mnj-g3-o8o"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="sSW-U4-Daf" secondAttribute="bottom" id="sVX-Pn-ipn"/>
+                                        <constraint firstItem="sSW-U4-Daf" firstAttribute="leading" secondItem="awS-CI-4RH" secondAttribute="leadingMargin" id="y4U-FK-jKX"/>
+                                        <constraint firstAttribute="trailing" secondItem="4Vj-fY-gWh" secondAttribute="trailing" id="yX3-P1-Imj"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -30,11 +66,17 @@
                             <outlet property="delegate" destination="CGO-XH-M8Q" id="WCs-Nh-evt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hky-VW-XHi"/>
+                    <navigationItem key="navigationItem" title="ZappyCode Courses" id="hky-VW-XHi">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="jjZ-Kz-9bm">
+                            <connections>
+                                <action selector="reloadTapped:" destination="CGO-XH-M8Q" id="kB9-0E-Z7h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7A-S8-SzU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1972.4637681159422" y="28.125"/>
+            <point key="canvasLocation" x="1779.7101449275365" y="10.714285714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3sz-02-WEq">
@@ -52,10 +94,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOs-KX-OHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062.3188405797102" y="28.125"/>
+            <point key="canvasLocation" x="930" y="11"/>
         </scene>
     </scenes>
     <resources>
+        <image name="iOS_13_Course_Image_Big" width="1500" height="844"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

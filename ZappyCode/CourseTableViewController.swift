@@ -49,10 +49,13 @@ class CourseTableViewController: UITableViewController {
         
         let course = courses[indexPath.row]
         
-        cell.textLabel?.text = course.title
+        //cell.textLabel?.text = course.title
         
         return cell
     }
 
+    @IBAction func reloadTapped(_ sender: Any) {
+        getCourses()
+    }
     
 }
